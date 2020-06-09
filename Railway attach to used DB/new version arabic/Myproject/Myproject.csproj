@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{247CBC35-C5EC-4A15-9737-7F50A996EB91}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Myproject</RootNamespace>
+    <AssemblyName>Myproject</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>D:\version 1\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\New folder\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="account.cs" />
+    <Compile Include="Booking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking.designer.cs">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cancel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cancel.designer.cs">
+      <DependentUpon>Cancel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgetPass.designer.cs">
+      <DependentUpon>ForgetPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="getprice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="getprice.designer.cs">
+      <DependentUpon>getprice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="print.Designer.cs">
+      <DependentUpon>print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="revision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="revision.designer.cs">
+      <DependentUpon>revision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="search.designer.cs">
+      <DependentUpon>search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="send_ticket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="send_ticket.Designer.cs">
+      <DependentUpon>send_ticket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetNewPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetNewPass.designer.cs">
+      <DependentUpon>SetNewPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="show.designer.cs">
+      <DependentUpon>show.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sign_up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sign_up.Designer.cs">
+      <DependentUpon>sign_up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ticket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ticket.designer.cs">
+      <DependentUpon>Ticket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tickets.cs" />
+    <Compile Include="train_c.cs" />
+    <Compile Include="Train_chooser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Train_chooser.designer.cs">
+      <DependentUpon>Train_chooser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_content.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_content.designer.cs">
+      <DependentUpon>user_content.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Booking.resx">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cancel.resx">
+      <DependentUpon>Cancel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPass.resx">
+      <DependentUpon>ForgetPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="getprice.resx">
+      <DependentUpon>getprice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="print.resx">
+      <DependentUpon>print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="revision.resx">
+      <DependentUpon>revision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search.resx">
+      <DependentUpon>search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="send_ticket.resx">
+      <DependentUpon>send_ticket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetNewPass.resx">
+      <DependentUpon>SetNewPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="show.resx">
+      <DependentUpon>show.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sign_up.resx">
+      <DependentUpon>sign_up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Ticket.resx">
+      <DependentUpon>Ticket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Train_chooser.resx">
+      <DependentUpon>Train_chooser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_content.resx">
+      <DependentUpon>user_content.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-cropped1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-cropped %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows-direction-icon-signs-and-symbols-can-be-vector-23986706.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel ticket - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forget pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prices.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\train seats - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\train seats.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prices1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\revision.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user content.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user content1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\train seats - Copy1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_p1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canccel ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pricce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send ticket1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send ticket2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set new.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kissclipart-baumann-spanndecken-clipart-technical-support-comp-8467dbf7ca2b3b86.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablo_email_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\direction+retro+right+stroke+arrow+icon-1320185744769287290.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book ticket - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\333.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-currency-dollar-symbol-font-circle-logo-sign-png-clip-art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\train-flat-icon-vector-7508686.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tttt.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

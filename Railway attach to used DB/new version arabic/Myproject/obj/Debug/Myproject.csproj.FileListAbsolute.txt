@@ -1,0 +1,56 @@
+c:\users\dell\documents\visual studio 2015\Projects\Myproject\Myproject\bin\Debug\Myproject.exe.config
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\Myproject.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\Myproject.Login.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\Myproject.Form1.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\Myproject.Properties.Resources.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\Myproject.csproj.GenerateResource.Cache
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.Booking.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.Cancel.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.ForgetPass.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.getprice.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.Main.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.revision.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.search.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.SetNewPass.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\bin\Debug\Myproject.exe
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\bin\Debug\Myproject.pdb
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\bin\Debug\itextsharp.dll
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\bin\Debug\MySql.Data.dll
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\bin\Debug\Google.Protobuf.dll
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.show.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.Ticket.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.Train_chooser.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\WindowsFormsApplication6.user_content.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\Myproject.exe
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\Myproject.pdb
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\Myproject.send_ticket.resources
+C:\Users\DELL\Documents\Visual Studio 2015\Projects\Myproject\Myproject\obj\Debug\Myproject.print.resources
+E:\Software versions\new version arabic\Myproject\bin\Debug\Myproject.exe.config
+E:\Software versions\new version arabic\Myproject\obj\Debug\Myproject.exe
+E:\Software versions\new version arabic\Myproject\obj\Debug\Myproject.pdb
+E:\Software versions\new version arabic\Myproject\bin\Debug\Myproject.exe
+E:\Software versions\new version arabic\Myproject\bin\Debug\Myproject.pdb
+E:\Software versions\new version arabic\Myproject\bin\Debug\itextsharp.dll
+E:\Software versions\new version arabic\Myproject\bin\Debug\MySql.Data.dll
+E:\Software versions\new version arabic\Myproject\bin\Debug\Google.Protobuf.dll
+E:\Software versions\new version arabic\Myproject\bin\Debug\BouncyCastle.Crypto.dll
+E:\Software versions\new version arabic\Myproject\obj\Debug\Myproject.csprojResolveAssemblyReference.cache
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.Booking.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.Cancel.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.ForgetPass.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.getprice.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\Myproject.Login.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.Main.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\Myproject.print.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.revision.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.search.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\Myproject.send_ticket.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.SetNewPass.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.show.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\Myproject.Form1.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\Myproject.Properties.Resources.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.Ticket.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.Train_chooser.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\WindowsFormsApplication6.user_content.resources
+E:\Software versions\new version arabic\Myproject\obj\Debug\Myproject.csproj.GenerateResource.Cache
